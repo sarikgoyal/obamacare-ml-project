@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "obamacare-ml-project"
+version = "0.1.0"
+description = "Analyzing tweets and Yelp data to evaluate public sentiment on ObamaCare"
+authors = ["Eshan Prashar <eshanprashar@uchicago.edu>", "Sarik Goyal <sarik@uchicago.edu>", 
+"Setu Loomba <setu@uchicago.edu>"]
+readme = "README.md"
+license = ""
+
+[tool.poetry.dependencies]
+# Compatible Python versions
+python = ">=3.8,<4.0"
+jupyterlab = "^3.6.3"
+pandas = "^2.0.0"
+scikit-learn = "^1.2.2"
+nltk = "^3.8.1"
+spacy = "^3.5.2"
